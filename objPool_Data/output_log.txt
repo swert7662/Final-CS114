@@ -1,0 +1,79 @@
+Initialize engine version: 5.5.2f1 (3829d7f588f3)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 770 (ID=0x1184)
+    Vendor:   NVIDIA
+    VRAM:     2017 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.037 seconds
+Platform assembly: D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\Swert\UCI Classes\CS 114 Projects in Advanced 3D Computer Graphics\Final\CS114 Final\objPool_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on Stuff
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+desktop: 1920x1080 60Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.544182 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 49d8 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.984692 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 4610.
+Total: 1.125406 ms (FindLiveObjects: 0.295451 ms CreateObjectMapping: 0.076858 ms MarkObjects: 0.737899 ms  DeleteObjects: 0.014611 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.519013 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4610.
+Total: 3.360729 ms (FindLiveObjects: 0.246356 ms CreateObjectMapping: 0.056694 ms MarkObjects: 3.011213 ms  DeleteObjects: 0.045589 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.400365 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4610.
+Total: 0.942757 ms (FindLiveObjects: 0.250447 ms CreateObjectMapping: 0.057862 ms MarkObjects: 0.621588 ms  DeleteObjects: 0.012566 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.295744 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4610.
+Total: 0.644383 ms (FindLiveObjects: 0.160730 ms CreateObjectMapping: 0.052018 ms MarkObjects: 0.421698 ms  DeleteObjects: 0.009643 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.432803 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4706.
+Total: 1.322958 ms (FindLiveObjects: 0.375232 ms CreateObjectMapping: 0.059031 ms MarkObjects: 0.873497 ms  DeleteObjects: 0.014319 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.431050 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4802.
+Total: 0.701954 ms (FindLiveObjects: 0.188493 ms CreateObjectMapping: 0.051433 ms MarkObjects: 0.451798 ms  DeleteObjects: 0.009643 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.509661 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 4802.
+Total: 0.947725 ms (FindLiveObjects: 0.245479 ms CreateObjectMapping: 0.054940 ms MarkObjects: 0.628894 ms  DeleteObjects: 0.014319 ms)
+
