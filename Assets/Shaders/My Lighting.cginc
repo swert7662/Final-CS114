@@ -249,6 +249,7 @@ void InitializeFragmentNormal(inout Interpolators i) {
 	#else
 		float3 binormal = i.binormal;
 	#endif
+	//Calcualte the new bump normal vector
 	i.normal = normalize(
 		tangentSpaceNormal.x * i.tangent +
 		tangentSpaceNormal.y * binormal +
@@ -262,7 +263,7 @@ float4 MyFragmentProgram(Interpolators i) : SV_TARGET{
 	float3 specularTint;
 	float oneMinusReflectivity;
 	float3 albedo = DiffuseAndSpecularFromMetallic(GetAlbedo(i), GetMetallic(i), specularTint, oneMinusReflectivity);
-
+	//Use unity pbs for more realistic color
 	float4 color = UNITY_BRDF_PBS(
 		albedo, specularTint,
 		oneMinusReflectivity, GetSmoothness(i),

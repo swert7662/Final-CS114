@@ -44,9 +44,7 @@ public class MyLightingShaderGUI : ShaderGUI {
         return staticLabel;
     }
 
-    static GUIContent MakeLabel(
-        MaterialProperty property, string tooltip = null
-    ) {
+    static GUIContent MakeLabel(MaterialProperty property, string tooltip = null) {
         staticLabel.text = property.displayName;
         staticLabel.tooltip = tooltip;
         return staticLabel;
@@ -97,8 +95,7 @@ public class MyLightingShaderGUI : ShaderGUI {
         EditorGUI.indentLevel += 1;
         EditorGUI.BeginChangeCheck();
         source = (SmoothnessSource)EditorGUILayout.EnumPopup(MakeLabel("Source"), source);
-        if (EditorGUI.EndChangeCheck())
-        {
+        if (EditorGUI.EndChangeCheck()){
             RecordAction("Smoothness Source");
             SetKeyword("_SMOOTHNESS_ALBEDO", source == SmoothnessSource.Albedo);
             SetKeyword(
@@ -155,8 +152,7 @@ public class MyLightingShaderGUI : ShaderGUI {
         editor.TexturePropertySingleLine(
             MakeLabel(mask, "Detail Mask (A)"), mask
         );
-        if (EditorGUI.EndChangeCheck())
-        {
+        if (EditorGUI.EndChangeCheck()){
             SetKeyword("_DETAIL_MASK", mask.textureValue);
         }
     }

@@ -150,6 +150,7 @@
   <ItemGroup>
     <None Include="Assets\Editor\ImageEffectFetcher\Lib\Ionic.Zip.Unity.XML" />
     <None Include="Assets\Shaders\Cube Shader.shader" />
+    <None Include="Assets\Shaders\Flow Map.shader" />
     <None Include="Assets\Shaders\My First Lighting Shader.shader" />
     <None Include="Assets\Shaders\My First Shader.shader" />
     <None Include="Assets\Shaders\My Lighting.cginc" />
