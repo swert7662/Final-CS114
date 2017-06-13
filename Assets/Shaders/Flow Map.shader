@@ -40,14 +40,14 @@ Shader "Custom/Flow Map"{
 
 			float4 MyFragmentProgram(Interpolators i) : SV_Target{
 				//Calculate flow direction with flow map
-				float3 flowDir = tex2D(_FlowMap, i.uv) * 2.0f - 1.0f;
+				float2 flowDir = tex2D(_FlowMap, i.uv).rg * 2.0f - 1.0f;
 				flowDir *= _FlowSpeed;
 				//Phases offset by .5
 				float phase1 = frac(_Time[1] * 0.5f + 0.5f);
 				float phase2 = frac(_Time[1] * 0.5f + 1.0f);
 				//Update start/end positions based on phases
-				float3 start = tex2D(_MainTex, i.uv + flowDir.xy * phase1);
-				float3 end = tex2D(_MainTex, i.uv + flowDir.xy * phase2);
+				float3 start = tex2D(_MainTex, i.uv + flowDir * phase1);
+				float3 end = tex2D(_MainTex, i.uv + flowDir * phase2);
 				//Create the interpolant for lerp function
 				float flowLerp = abs((0.5f - phase1) / 0.5f);
 				//Update position between start and end
